@@ -39,7 +39,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cS3Bucket28F52FCD"
+            "Ref": "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9S3BucketDDABAEC2"
           },
           "S3Key": {
             "Fn::Join": [
@@ -52,7 +52,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cS3VersionKey932AE41D"
+                          "Ref": "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9S3VersionKeyE406D55E"
                         }
                       ]
                     }
@@ -65,7 +65,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cS3VersionKey932AE41D"
+                          "Ref": "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9S3VersionKeyE406D55E"
                         }
                       ]
                     }
@@ -90,7 +90,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "NodeStarterStack/stack-event-processor-id/Resource",
-        "aws:asset:path": "/Users/kkolhatkar/sandbox/node-starter/build/stack-event-processor",
+        "aws:asset:path": "/Users/kkolhatkar/sandbox/nodejs-javascript-3/build/stack-event-processor",
         "aws:asset:property": "Code"
       }
     },
@@ -106,17 +106,17 @@
     }
   },
   "Parameters": {
-    "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cS3Bucket28F52FCD": {
+    "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9S3BucketDDABAEC2": {
       "Type": "String",
-      "Description": "S3 bucket for asset \"8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557c\""
+      "Description": "S3 bucket for asset \"5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9\""
     },
-    "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cS3VersionKey932AE41D": {
+    "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9S3VersionKeyE406D55E": {
       "Type": "String",
-      "Description": "S3 key for asset version \"8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557c\""
+      "Description": "S3 key for asset version \"5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9\""
     },
-    "AssetParameters8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557cArtifactHash7403C2D7": {
+    "AssetParameters5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9ArtifactHash512504B2": {
       "Type": "String",
-      "Description": "Artifact hash for asset \"8583ade9f13ba266ee5c65479392cb4929826ea773dd314624256d3f81fc557c\""
+      "Description": "Artifact hash for asset \"5057cc17a045cee18041fb545bffc0fca9fe73cabac6a51c59769aba04511aa9\""
     }
   },
   "Conditions": {
